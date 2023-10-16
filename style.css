@@ -81,8 +81,6 @@ ul {
 }
 
 #navbar a:hover {
-    /* border-bottom: 5px solid #f0efef; */
-    /* padding: 5px; */
     transform: scale(1.2);
     display: inline-block;
 }
@@ -541,7 +539,7 @@ ion-icon {
 }
 
 /* MOBILE */
-@media ((min-width: 320px) and (max-width: 480px)) {
+@media ((min-width: 320px) and (max-width: 540px)) {
     .section {
         padding: 0;
         padding-bottom: 20px;
@@ -568,6 +566,7 @@ ion-icon {
     #navbar a:hover,
     #navbar a:active {
         font-size: 0.9rem;
+        transform: none;
     }
 
     #hero h1 {
@@ -647,6 +646,7 @@ ion-icon {
     .school-card > img {
         object-fit: cover;
         width: 300px;
+        margin: 0 auto;
         margin-bottom: 30px;
         /* display: none; */
     }
@@ -656,6 +656,7 @@ ion-icon {
         padding: 0;
         margin: 0;
         border: none;
+        text-align: center;
     }
 
     #contact {
