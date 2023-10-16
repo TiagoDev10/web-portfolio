@@ -541,6 +541,9 @@ ion-icon {
 @media ((min-width: 320px) and (max-width: 480px)) {
     .section {
         padding: 0;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+        margin-top: 50px;
     }
 
     .section_title {
@@ -578,19 +581,24 @@ ion-icon {
     }
 
     .grid-container-me {
-        width: 100%;
-        padding: 0;
-        margin: 0;
+        width: 80%;
+        padding: 40px;
+        padding-bottom: 10px;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
+    #about-me {
+        border-bottom: 1px solid #eee;
+    }
+
     #about-me--txt1,
     #about-me--txt2,
     #about-me--txt3 {
-        text-align: center;
+        text-align: justify;
         font-size: 0.9rem !important;
     }
 
@@ -621,7 +629,9 @@ ion-icon {
 
     #education {
         margin-bottom: 50px;
+        padding-bottom: 40px;
         border: none;
+        border-bottom: 1px solid #eee;
     }
 
     .flex-container-education {
