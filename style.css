@@ -49,7 +49,10 @@ ul {
 
 #navbar {
     width: 100vw;
-    height: 15vh;
+    height: 5vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
     min-height: 80px;
     min-width: 100%;
     background-color: #2e97a7;
@@ -99,7 +102,7 @@ a:active {
 /* HERO */
 
 #hero {
-    height: 85vh;
+    height: 95vh;
     min-height: 500px;
     min-width: 100vw;
     background-color: #352fd9ee;
