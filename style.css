@@ -420,7 +420,7 @@ ion-icon {
 /* //////////////////////////////////////////////////////////////// */
 /* MEDIA QUERIES */
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     #hero {
         width: 100vw;
         height: 100%;
